@@ -48,6 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.77585078534031415" green="0.77585078534031415" blue="0.77585078534031415" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PlaceCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlaceCell" textLabel="QYf-4W-b5G" detailTextLabel="mtR-Wq-ls9" style="IBUITableViewCellStyleValue1" id="wQb-MR-aKy">
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
@@ -72,6 +73,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -82,7 +84,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tMn-KF-5fS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1122" y="308"/>
+            <point key="canvasLocation" x="1318" y="588"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="79A-oZ-0tT">

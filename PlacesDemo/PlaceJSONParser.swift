@@ -10,7 +10,7 @@
   
   struct Place {
     var name: String
-    var rating: Double
+    var price_level: Int
   }
   
   class PlaceJSONParser: NSObject {
@@ -22,8 +22,8 @@
         for subJSON in jsonPlaces! {
             if let name = subJSON["name"].rawString() {
                 
-                let rating = subJSON["rating"].doubleValue                
-                let place = Place(name: name, rating: rating)
+                let price_level = subJSON["price_level"].intValue
+                let place = Place(name: name, price_level: price_level)
                 
                 resultPlaces.append(place)
             }
