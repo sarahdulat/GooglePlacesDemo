@@ -1,19 +1,19 @@
 //  PlaceJSONParser.swift
-  //  PlacesDemo
-  //
-  //  Created by julie.yaunches on 3/22/16.
-  //  Copyright © 2016 julie.yaunches. All rights reserved.
-  //
-  
-  import Foundation
-  import SwiftyJSON
-  
-  struct Place {
+//  PlacesDemo
+//
+//  Created by julie.yaunches on 3/22/16.
+//  Copyright © 2016 julie.yaunches. All rights reserved.
+//
+
+import Foundation
+import SwiftyJSON
+
+struct Place {
     var name: String
     var price_level: Int
-  }
-  
-  class PlaceJSONParser: NSObject {
+}
+
+class PlaceJSONParser: NSObject {
     static func createFrom(incomingJSON: SwiftyJSON.JSON) -> [Place] {
         var resultPlaces: [Place] = []
         
@@ -31,4 +31,4 @@
         }
         return resultPlaces
     }
-  }
+}
